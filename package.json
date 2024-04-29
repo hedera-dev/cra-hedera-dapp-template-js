@@ -10,7 +10,7 @@
     "mui",
     "DApp"
   ],
-  "description": "Hedera dApp Starter Template JavaScript using Create React App Template, Material UI with HashPack, Blade, and MetaMask wallet support.",
+  "description": "Hedera dApp Starter Template JavaScript using Create React App Template, Material UI with HashPack, Blade, Kabila, and MetaMask wallet support.",
   "main": "template.json",
   "repository": {
     "type": "git",

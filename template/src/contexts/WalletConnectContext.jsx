@@ -7,14 +7,14 @@ const defaultValue = {
   setIsConnected: (newValue) => { },
 }
 
-export const HashconnectContext = createContext(defaultValue);
+export const WalletConnectContext = createContext(defaultValue);
 
-export const HashconnectContextProvider = (props) => {
+export const WalletConnectContextProvider = (props) => {
   const [accountId, setAccountId] = useState(defaultValue.accountId);
   const [isConnected, setIsConnected] = useState(defaultValue.isConnected);
 
   return (
-    <HashconnectContext.Provider
+    <WalletConnectContext.Provider
       value={{
         accountId,
         setAccountId,
@@ -23,6 +23,6 @@ export const HashconnectContextProvider = (props) => {
       }}
     >
       {props.children}
-    </HashconnectContext.Provider>
+    </WalletConnectContext.Provider>
   )
 }
